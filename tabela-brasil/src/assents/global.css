@@ -1,0 +1,32 @@
+:root {
+  --bg-principal: #0f172a;
+  --bg-card: #1e293b;
+  --verde-destaque: #10b981;
+  --texto-claro: #ffffff;
+  --texto-suave: #94a3b8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.btn { padding: 8px 16px; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; transition: 0.2s; }
+.btn-verde { background-color: var(--verde-destaque); color: #000; }
+.btn-verde:hover { opacity: 0.85; }
+.btn-neutro { background-color: #334155; color: #fff; }
+
+input, select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  background-color: var(--bg-card);
+  color: var(--texto-claro);
+  width: 100%;
+  margin-bottom: 12px;
+}
